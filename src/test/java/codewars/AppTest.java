@@ -10,6 +10,9 @@ import junit.framework.TestSuite;
 public class AppTest 
     extends TestCase
 {
+    public static void main( String[] args ){
+        RetornarStringTest.greet("Igna");
+    }
     /**
      * Create the test case
      *
